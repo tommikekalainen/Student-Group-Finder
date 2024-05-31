@@ -1,0 +1,43 @@
+# Student Group Finder
+
+This project is a simple web page that helps determine which group a student belongs to based on their birth date. The groups are classified as follows:
+- K1 class: Students born between May 16, 2021, and May 16, 2022
+- K2 class: Students born between May 17, 2022, and May 16, 2023
+- K3 class: Students born between May 17, 2023, and May 16, 2024
+
+## Files Included
+- `index.html`: The main HTML file containing the form and JavaScript to determine the student group.
+
+## How to Use
+1. Open the `index.html` file in a web browser.
+2. Enter the student's birth date in the provided date input field.
+3. Click the "Find Group" button to determine which group the student belongs to.
+4. The result will be displayed below the form, indicating the class (K1, K2, or K3) the student belongs to based on their birth date.
+
+## Code Explanation
+The `index.html` file contains the following key elements:
+
+### HTML Structure
+- A form with a date input field for the user to enter the student's birth date.
+- A submit button to trigger the group finding process.
+- A paragraph element to display the result.
+
+### JavaScript Logic
+- An event listener is added to the form to handle the submit event.
+- When the form is submitted, the birth date entered by the user is retrieved and compared against predefined date ranges for each class.
+- Based on the birth date, the appropriate group (K1, K2, or K3) is determined and displayed in the result paragraph.
+
+### Example
+Here is an example of how the form works:
+1. The user enters a birth date, e.g., `2022-06-15`.
+2. The script checks the date and determines that this date falls within the K2 class date range.
+3. The result displayed will be: "The student belongs to: K2 class".
+
+## Requirements
+- A modern web browser that supports HTML5 and JavaScript.
+
+## Author
+This project was created by [Your Name].
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
